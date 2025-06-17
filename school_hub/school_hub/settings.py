@@ -69,6 +69,8 @@ TEMPLATES = [
     },
 ]
 
+AUTH_USER_MODEL = 'auths.CustomUser'
+
 WSGI_APPLICATION = 'school_hub.wsgi.application'
 
 
