@@ -10,7 +10,7 @@ def register(request):
             user = form.save()
             auth_login(request, user)
             messages.success(request, 'Registration successful.')
-            return redirect('home')  # Replace with your actual home route
+            return redirect('home')  
     else:
         form = CustomUserCreationForm()
     return render(request, "auths/register.html", {'form': form})
