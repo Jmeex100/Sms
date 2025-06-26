@@ -1,0 +1,16 @@
+
+# Node modules (if using Tailwind via npm)
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Tailwind JIT cache (if applicable)
+.tailwind-cache/
+
+# Environment variables
+.env
+.env.local
+.venv
+.myworld
