@@ -100,10 +100,9 @@
           &copy; 2025 School Hub. All rights reserved.
         </p>
         <div class="flex space-x-6">
-          <a href="#" class="text-gray-500 hover:text-gray-600 transition-colors">Terms</a>
-          <a href="#" class="text-gray-500 hover:text-gray-600 transition-colors">Privacy</a>
-          <a href="#" class="text-gray-500 hover:text-gray-600 transition-colors">Cookies</a>
-        </div>
+          <a href="{% url "terms" %}" class="text-gray-500 hover:text-gray-600 transition-colors">Terms</a>
+          <a href="{% url "privacy" %}" class="text-gray-500 hover:text-gray-600 transition-colors">Privacy</a>
+          <a href="{% url "cookies" %}" class="text-gray-500 hover:text-gray-600 transition-colors">Cookies</a> </div>
       </div>
     </div>
   </footer>
