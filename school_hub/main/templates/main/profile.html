@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block title %}Profile{% endblock title %}
+{% block content %}
+<div class="bg-white text-gray-900">
+  <div class="max-w-4xl mx-auto px-6 py-12">
+    <h1 class="text-4xl font-bold text-green-600 mb-8">Your Profile</h1>
+    
+    <div class="grid md:grid-cols-3 gap-8 mb-10">
+      <div class="md:col-span-2">
+        <div class="bg-gray-50 p-6 rounded-lg mb-6">
+          <h2 class="text-xl font-semibold mb-4">Personal Information</h2>
+          <div class="space-y-4">
+            <div>
+              <p class="text-sm text-gray-500">Full Name</p>
+              <p class="font-medium">Alex Johnson</p>
+            </div>
+            <div>
+              <p class="text-sm text-gray-500">Email</p>
+              <p class="font-medium">alex@example.com</p>
+            </div>
+           <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%2Fid%2FOIP.y568N1DNk6JeHsDtlu8nLQHaE8%3Fr%3D0%26pid%3DApi&f=1&ipt=7738fd8d34c260f861f130a5b8eed4a43f7e5646c4e30bb6d9fa6f89307e9d58&ipo=images" alt="" class="rounded-full" srcset="">
+          </div>
+          <button class="mt-4 text-green-600 hover:text-green-800 transition">
+            Edit Profile
+          </button>
+        </div>
+      </div>
+
+      <div>
+        <div class="bg-gray-50 p-6 rounded-lg">
+          <h2 class="text-xl font-semibold mb-4">Quick Links</h2>
+          <ul class="space-y-3">
+            <li><a href="#" class="text-green-600 hover:underline">Change Password</a></li>
+            <li><a href="#" class="text-green-600 hover:underline">Notification Settings</a></li>
+            <li><a href="#" class="text-green-600 hover:underline">Privacy Controls</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock content %}

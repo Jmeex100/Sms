@@ -1,14 +1,12 @@
 from django.shortcuts import render
 
-# Create your views here.
 
+# Original untouched views
 def home(request):
     return render(request, 'main/home.html')
 
 def contact(request):
     return render(request, 'main/contact.html')
-
-# New views for terms, privacy, and cookies
 
 def terms(request):
     return render(request, 'main/terms.html')
@@ -19,5 +17,18 @@ def privacy(request):
 def cookies(request):
     return render(request, 'main/cookies.html')
 
+# New views
+def help(request):
+    return render(request, 'main/help.html')
 
-# dont  touch up 
+def about(request):
+    return render(request, 'main/about.html')
+
+def profile(request):
+    return render(request, 'main/profile.html')
+
+def events(request):
+    return render(request, 'main/events.html')
+
+def resources(request):
+    return render(request, 'main/resources.html')

@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% block title %}About Us{% endblock title %}
+{% block content %}
+<div class="bg-white text-gray-900">
+  <div class="max-w-4xl mx-auto px-6 py-12">
+    <h1 class="text-4xl font-bold text-green-600 mb-8">About School Hub</h1>
+    
+    <div class="prose max-w-none mb-10">
+      <h2 class="text-2xl font-semibold mb-4">Our Mission</h2>
+      <p class="mb-6">We're revolutionizing education management by providing schools with intuitive tools to connect administrators, teachers, students, and parents in one unified platform.</p>
+      
+      <h2 class="text-2xl font-semibold mb-4">Key Features</h2>
+      <ul class="list-disc pl-6 space-y-2 mb-6">
+        <li>Real-time grade tracking</li>
+        <li>Automated attendance system</li>
+        <li>Parent-teacher communication portal</li>
+        <li>Resource sharing platform</li>
+      </ul>
+    </div>
+
+    <div class="mt-12">
+      <h2 class="text-2xl font-semibold mb-6">Meet Our Team</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="text-center">
+          <div class="w-32 h-32 mx-auto bg-gray-200 rounded-full mb-4"></div>
+          <h3 class="font-medium">Sarah Johnson</h3>
+          <p class="text-gray-600">Founder & CEO</p>
+        </div>
+        <!-- Add more team members -->
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock content %}

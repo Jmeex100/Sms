@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block title %}Events{% endblock title %}
+{% block content %}
+<div class="bg-white text-gray-900">
+  <div class="max-w-4xl mx-auto px-6 py-12">
+    <h1 class="text-4xl font-bold text-green-600 mb-8">Upcoming Events</h1>
+    
+    <div class="mb-8 flex justify-between items-center">
+      <h2 class="text-2xl font-semibold">July 2024</h2>
+      <button class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition">
+        Add Event
+      </button>
+    </div>
+
+    <div class="grid grid-cols-7 gap-2 mb-6">
+      <div class="text-center font-medium py-2">Sun</div>
+      <div class="text-center font-medium py-2">Mon</div>
+      <!-- Days of week -->
+    </div>
+
+    <div class="space-y-4">
+      <div class="border-l-4 border-green-500 pl-4 py-2">
+        <h3 class="font-medium">Parent-Teacher Conference</h3>
+        <p class="text-gray-600">July 15, 2024 • 3:00 PM</p>
+        <p class="text-gray-600">Room 205</p>
+      </div>
+      <!-- More events -->
+    </div>
+  </div>
+</div>
+{% endblock content %}

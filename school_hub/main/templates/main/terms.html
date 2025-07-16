@@ -1,11 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Terms & Conditions</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
+{% extends "base.html" %}
+
+
+{% block title %}
+
+Welcome
+
+{% endblock title %}
+
+{% block content %}
 <body class="bg-gray-50 text-gray-800">
   <div class="max-w-4xl mx-auto px-6 py-12">
     <h1 class="text-4xl font-bold text-blue-600 mb-6">Terms & Conditions</h1>
@@ -19,5 +21,6 @@
     </ul>
     <p>These terms are subject to change. Please review them periodically..</p>
   </div>
-</body>
-</html>
+
+
+{% endblock content %}

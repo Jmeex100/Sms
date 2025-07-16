@@ -1,0 +1,41 @@
+<!-- Footer -->
+<footer class="bg-white border-t border-gray-200">
+  <div class="container mx-auto px-4 py-8">
+    <div class="flex flex-col md:flex-row justify-between items-center">
+      <div class="mb-4 md:mb-0">
+        <p class="text-gray-500 text-sm">
+          &copy; 2025 School Hub. All rights reserved.
+        </p>
+        <!-- Optional: Add a brief tagline -->
+        <p class="text-gray-400 text-xs mt-1">Empowering education, one click at a time.</p>
+      </div>
+      <div class="flex flex-wrap justify-center gap-4 md:gap-6">
+        <a 
+          href="{% url 'terms' %}" 
+          class="text-gray-500 hover:text-gray-700 text-sm transition-colors duration-200"
+        >
+          Terms of Service
+        </a>
+        <a 
+          href="{% url 'privacy' %}" 
+          class="text-gray-500 hover:text-gray-700 text-sm transition-colors duration-200"
+        >
+          Privacy Policy
+        </a>
+        <a 
+          href="{% url 'cookies' %}" 
+          class="text-gray-500 hover:text-gray-700 text-sm transition-colors duration-200"
+        >
+          Cookie Policy
+        </a>
+        <!-- Optional: Add contact/social links -->
+        <a 
+          href="#" 
+          class="text-gray-500 hover:text-blue-500 text-sm transition-colors duration-200"
+        >
+          Contact Us
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
